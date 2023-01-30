@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif; 
+    background-color: black;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+    background-image: url(./img/САЙТ_фон_Монтажная_область_1_копия.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*header*/
+.header__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+   
+}
+
+.header__title{
+    font-size: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.header__subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.header__img{
+    width: 70%;
+}
+.header__text{
+    font-size: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+}
+/* about */
+.about{
+    padding-top: 500px;
+}
+.about__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__center{
+    display: flex;
+    justify-content: space-around;
+}
+.about__text{
+    color: white;
+    width: 400px;
+    line-height: 1.9;
+    letter-spacing: 0.2em;
+}
+.about__right{
+    padding-top: 200px;
+}
+.about__img{
+    margin-top: -130px;
+}
+.about__png{
+    margin-top: 44px;
+}
+.about__money{
+    object-fit: cover;
+}
+/*if*/
+.if{
+    padding-top: 200px;
+}
+.if__title{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    padding: 20px 150px;
+}
+.if__subtitle{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    padding-left: 80px;
+    font-weight: 100;
+}
+li{
+    margin-top: 10px;
+}
+/* benefit */
+.benefit__title{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+}
+.benefit{
+    padding-top: 300px;
+}
+.benefit__text{
+    padding:20px 100px;
+
+}
+p{
+    background-color: red;
+    font-size: 33px;
+    color: white;
+    border-radius: 10px ;
+    width: fit-content;
+    padding: 5px;
+    margin-top: 65px;
+    
+}
+.benefit__png{
+    margin-top: -480px;
+    margin-left: 30px;
+    object-fit: cover;
+}
+/*content*/
+.content__title{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 200;
+    margin-top: -40px;
+}
+.content__text{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    padding-left: 100px;
+    font-weight: 100;
+    margin-top: 40px;
+}
+/* sections */
+.ski-pass{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:100px ;
+}
+.certificate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:100px ;
+  }
+
+.date__title{
+    background-color: white;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 800;
+    padding: 10px;
+    margin-top: 180px;
+}
+
+.date__text{
+ 
+   color: white;
+   font-size: 30px;
+   text-align: center;
+   padding-top: 100px;
+   font-weight: 300;
+}
+/* footer */
+.footer{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer__title{
+    color: white;
+    border: 2px white solid;
+    padding: 10px;
+    width: 600px;
+    border-radius: 10px;
+    font-size: 28px;
+    margin-top: 100px;
+}
+.footer__input{
+    display: flex;
+    flex-direction: column;
+}
+.input__name{
+    background:transparent;
+    width: 570px;
+    height: 20px;
+    border: 2px white solid;
+    border-radius: 15px;
+    margin-top: 60px;
+    font-size: 20px;
+    padding: 20px;
+}
+.input__number{
+    background:transparent;
+    width: 570px;
+    height: 20px;
+    border: 2px white solid;
+    border-radius: 15px;
+    margin-top: 60px;
+    font-size: 20px;
+    padding: 20px;
+}
+.input__email{
+    background:transparent;
+    width: 570px;
+    height: 20px;
+    border: 2px white solid;
+    border-radius: 15px;
+    margin-top: 60px;
+    font-size: 20px;
+    padding: 20px;
+}
+.footer__btn{
+    background:transparent;
+    border: 2px white solid;
+    border-radius: 15px;
+    color: white;
+    padding:10px 30px;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-right: 300px;
+    margin-bottom: 1000px;
+}
+.footer__btn:hover{
+    background-color: blue;
+}
